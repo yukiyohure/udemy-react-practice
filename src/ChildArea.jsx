@@ -8,7 +8,7 @@ const style = {
 
 export const ChildArea = memo((props) => {
   const { open, onClickClose } = props;
-  console.log("ChildAreaがレンダリングされた！");
+  console.log("ChildAreaがレンダリングされた！!");
 
   const data = [...Array(2000).keys()];
   data.forEach(() => {
